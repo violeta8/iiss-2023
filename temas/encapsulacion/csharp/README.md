@@ -1,4 +1,10 @@
-#
+## Construccion y Compilación
+Abrimos una terminal en la carpeta del proyecto y ejecutamos:
+    dotnet new console
+
+## Ejecución
+Para ejecutar el código escribiremos en la terminal:
+    dotnet run
 
 ## Codigo
     public class Persona
@@ -75,3 +81,10 @@
 
         Console.ReadKey();
     }
+
+## Explicacion
+Es un ejemplo sencillo, donde podemos observar que es posible que el valor del atributo edad solo pueda ser definida por la misma clase (privado), pero el valor del atributo edad se pueda obtener desde fuera de la clase (publico).
+
+Para ello podemos de indicar que el método Get (Obtener valor) sea público, y el método Set (Asignar valor) sea privado.
+
+Entonces al aislar estos elementos, evitamos que sufra modificaciones incontroladas y facilitar el desarrollo de software.
