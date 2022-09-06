@@ -58,4 +58,4 @@ int main() {
 ## Explicacion
 El uso del optional, a partir de c++17, es bastante importante, puesto que antes el nullptr representaba la ausencia de un valor comúnmente, sobre todo en objetos grandes, pero para valores pequeños o por ejemplo un int, rara vez se asignan dinámicamente por punteros, entonces para esto se introdujo unos de los usos del optional en c++.
 
-En este ejemplo, John recibe dos mascotas, Fluffy y Furball. Luego se llama a la función Person::pet_with_name() para recuperar los bigotes de la mascota de John. Como Paulo no tiene una mascota llamada UCA, la función falla y std::nullopt se devuelve en su lugar.
+En este ejemplo, Paulo recibe dos mascotas, Fluffy y Furball. Luego se llama a la función Person::pet_with_name() para recuperar los bigotes de la mascota de Paulo. Como Paulo no tiene una mascota llamada UCA, la función falla y std::nullopt se devuelve en su lugar.
