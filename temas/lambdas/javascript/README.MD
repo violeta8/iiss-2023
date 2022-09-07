@@ -1,17 +1,10 @@
 # Lambdas en Javascript
-
 Demostración usando el lenguaje Javascript del ejercicio 1 de la [Práctica 8](https://sistemas-sw.github.io/iiss-practicas-java/fp-p1/) de la asignatura
 
 ## Autor
 Javier David García-Pardo Montero
 
-## Compilación y ejecución del programa
-
-Para compilar y ejecutar el programa lambdas en Javascript basta con abrir una terminal en la ruta temas/lambdas/javascript/ y ejecutar el siguiente comando
-
-```bash
-node lambdas.js
-```
+## Requisitos
 Es necesario tener Node.js para ejecutar el programa, si no se encuentra instalado puede hacerse siguiendo los siguientes comandos:
 Actualice su índice de paquetes locales para descargar la última versión de Node.js
 ```bash
@@ -28,6 +21,13 @@ nodejs -v
 También es conveniente instalar npm, el administrador de paquetes de Node.js. Puede hacerlo ejecutando el siguiente comando
 ```bash
 sudo apt install npm
+```
+
+## Compilación y ejecución del programa
+Para compilar y ejecutar el programa lambdas en Javascript basta con abrir una terminal en la ruta temas/lambdas/javascript/ y ejecutar el siguiente comando
+
+```bash
+node lambdas.js
 ```
 
 ## Salida esperada del programa
