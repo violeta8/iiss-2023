@@ -175,3 +175,5 @@ Implementar un ejemplo de procesamiento de streams de eventos asíncronos emplea
 | [CARO BARRERA, LUCÍA](https://github.com/luciacarobar)| Python, Java, Scala y C++ | [Encapsulación (Python)](temas/encapsulacion/python/) | [Inyección (Java)](temas/inyeccion/java-di-guice/) | [Contratos (Scala)](temas/contratos/scala/) | [Lambdas (C++)](temas/lambdas/cpp2/) |
 | [SÁNCHEZ HERNÁNDEZ, PAULO](https://github.com/paulosanchezh)        |   Python,Java,C++   |  [Encapsulación](temas/encapsulacion/csharp/) |  [Anotaciones](temas/anotaciones/java/)  | [Undefined](temas/undefined/cpp2/) | [Futuros](temas/futuros/python/) |
 |   |   |   |   |   |   |
+| [GARCÍA-PARDO MONTERO, JAVIER](https://github.com/davidgarciap)        |   C++.Java,Javascript  |  [Herencia](temas/herencia/cpp/) |  [Inyección](temas/inyeccion/java-di-guice-2/)  | [Undefined](temas/undefined/cpp3/) | [Lambdas](temas/lambdas/javascript/) |
+
