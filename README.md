@@ -1,6 +1,6 @@
 # Prácticas de Implementación 2023
 
-Las prácticas consistirán en construir y realizar la implementación de un ejemplo de cada [tema](#temas). La implementación se realizará en un lenguaje a elegir por el estudiante.
+Las prácticas consistirán en construir y realizar la implementación de un ejemplo de cada [tema](/temas). La implementación se realizará en un lenguaje a elegir por el estudiante.
 
 Los ejemplos serán similares a los estudiados en teoría, u otros alternativos propuestos por cada estudiante. La elección del ejemplo de un tema no excluye utilizar elementos de otros temas, aunque se intentará centrarlo sobre todo en elementos de construcción propios del tema elegido.
 
@@ -22,11 +22,9 @@ Los ejemplos serán similares a los estudiados en teoría, u otros alternativos 
      - `encapsulacion`,
      - `herencia`,
      - `delegacion`,
-     - `uniones`,
      - `inyeccion`,
      - `anotaciones`,
      - `aspectos`,
-     - `contratos`,
      - `undefined`,
      - `lambdas`,
      - `asincrono`,
