@@ -26,3 +26,15 @@ Este código en lenguaje Java representa dos clases, la primera llamada "Lavador
 En términos de delegación, la clase Lavadora delega la tarea de lavar la ropa a la clase LavadoraAutomatica, ya que utiliza su objeto para ejecutar el método "lavar()" que imprime en la consola el mensaje "La lavadora está lavando la ropa...".
 
 Por lo tanto, la clase Lavadora no implementa directamente la lógica de lavado de la ropa, sino que delega esta tarea a la clase LavadoraAutomatica. La delegación permite separar la responsabilidad de lavado de la ropa de la clase principal Lavadora y mantener el código más organizado y fácil de mantener.
+
+Para comprobar que todo funciona correctamente, he creado una clase de prueba llamada "ejemplo" que crea un objeto de tipo Lavadora y llama al método "lavarRopa()".
+
+```java
+
+public class ejemplo {
+    public static void main(String[] args) {
+        Lavadora l = new Lavadora();
+        l.lavarRopa();
+    }
+}
+```
