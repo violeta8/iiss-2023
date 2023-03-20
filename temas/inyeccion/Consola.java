@@ -1,4 +1,4 @@
-k// La clase Consola implementa la interfaz Jugable.
+// La clase Consola implementa la interfaz Jugable.
 public class Consola implements Jugable
 {
     // La clase Consola tiene un atributo privado modelo.
