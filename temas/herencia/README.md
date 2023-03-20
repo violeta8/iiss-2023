@@ -34,3 +34,18 @@ public class Perro extends Animal {
 En este ejemplo, la clase "Perro" hereda las propiedades "nombre" y "edad" de la clase "Animal" y también tiene su propia propiedad "raza". Además, la clase "Perro" tiene su propio método "ladrar()", que no está presente en la clase "Animal".
 
 Con esta herencia, podemos crear objetos "Perro" que tengan todas las propiedades y métodos de la clase "Animal" y también las propiedades y métodos adicionales de la clase "Perro". 
+
+Para comprobar que todo funciona correctamente, he creado un programa que crea un objeto de la clase "Perro" y lo utiliza para mostrar los valores de sus atributos. Luego, modifica el valor del atributo "nombre" y muestra el valor actualizado del mismo.
+
+```java
+public class ejemplo {
+    public static void main(String[] args) {
+        Animal miAnimal = new Animal("Mimi", 2);
+        Perro miPerro = new Perro("Fido", 3, "Labrador");
+        
+        miAnimal.hacerSonido();
+        miPerro.hacerSonido();
+        miPerro.ladrar();
+    }
+}
+```
