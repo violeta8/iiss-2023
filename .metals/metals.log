@@ -1,0 +1,27 @@
+2023.03.06 12:37:09 INFO  Started: Metals version 0.11.11 in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023' for client Visual Studio Code 1.76.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/viole/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.06 12:37:11 INFO  time: initialize in 1.56s
+2023.03.06 12:37:12 WARN  Build server is not auto-connectable.mar 06, 2023 12:37:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2
+
+mar 06, 2023 12:37:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1
+2023.03.06 12:37:12 WARN  no build tool detected in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.03.06 12:37:12 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\prueba.scala
+2023.03.06 12:37:23 INFO  no build target found for C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\prueba.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.06 12:37:27 INFO  time: code lens generation in 14s
+2023.03.06 12:37:27 INFO  time: code lens generation in 8.33s
+mar 06, 2023 12:37:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 24
+2023.03.06 12:46:34 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\prueba.java
+2023.03.06 12:46:34 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\prueba.java
+2023.03.06 12:46:36 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\prueba.java
+2023.03.06 12:46:38 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\prueba.java
+2023.03.06 12:46:48 INFO  Shutting down server
+2023.03.06 12:46:48 INFO  shutting down Metals
+2023.03.06 12:46:48 INFO  Exiting server
