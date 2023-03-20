@@ -52,3 +52,28 @@ También se han definido tres métodos públicos llamados "setNombre()", "setEda
 Finalmente, se ha definido un constructor público para la clase "Persona" que toma tres parámetros ("nombre", "edad" y "género") y los utiliza para inicializar los atributos correspondientes de la clase.
 
 En conjunto, estos elementos forman un ejemplo básico de cómo se puede aplicar el principio de encapsulación en Java mediante la definición de atributos privados y métodos públicos para acceder y modificar dichos atributos.
+
+A parte para comprobar que todo funciona correctamente he creado un programa que crea un objeto de la clase "Persona" y lo utiliza para mostrar los valores de sus atributos. Luego, modifica el valor del atributo "nombre" y muestra el valor actualizado del mismo.
+
+```java
+public class ejemplo {
+
+    public static void main(String[] args) {
+      // Crear una instancia de la clase Persona
+      Persona persona1 = new Persona("Juan", 25, 'M');
+  
+      // Obtener los valores de los atributos de la clase Persona
+      System.out.println("Nombre: " + persona1.getNombre());
+      System.out.println("Edad: " + persona1.getEdad());
+      System.out.println("Género: " + persona1.getGenero());
+  
+      // Modificar el valor del atributo "nombre"
+      persona1.setNombre("Tu padre");
+  
+      // Obtener el valor actualizado del atributo "nombre"
+      System.out.println("Nombre actualizado: " + persona1.getNombre());
+    }
+  }
+  
+```
+
