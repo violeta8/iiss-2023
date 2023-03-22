@@ -1,9 +1,15 @@
-La herencia en Java nos permite reutilizar el código de una clase existente y crear nuevas clases que tengan todas las propiedades y métodos de la clase original, además de sus propias propiedades y métodos adicionales. Esto nos permite escribir código más eficiente y fácil de mantener.
+Para definir una clase en Scala que hereda de otra clase, se utiliza la palabra clave "extends" seguida del nombre de la clase base.
 
 Si necesitasemos una clase "Animal" que tuviera ciertas propiedades y métodos, como "nombre", "edad" y "hacerSonido()". Ahora, queremos crear una clase "Perro" que herede de la clase "Animal" y también tenga sus propias propiedades y métodos.
 
-Podríamos hacerlo de la siguiente manera:
-```java
+Este código de Scala define dos clases, Animal y Perro, y un objeto ejemplo con un método main que crea instancias de ambas clases y llama a sus métodos.
+
+La clase Animal tiene dos atributos: nombre y edad, que son pasados como argumentos al constructor de la clase. También tiene un método hacerSonido que simplemente imprime "Haciendo sonido..." por pantalla.
+
+La clase Perro es una subclase de Animal y agrega un nuevo atributo, raza. Su constructor también toma tres argumentos: nombre, edad y raza, y llama al constructor de la clase base usando la sintaxis "extends Animal(nombre, edad)".
+
+La clase Perro también define un nuevo método llamado ladrar que imprime "Guau guau!" por pantalla:
+```scala
 public class Animal {
     protected String nombre;
     protected int edad;
@@ -31,13 +37,11 @@ public class Perro extends Animal {
     }
 }
 ```
-En este ejemplo, la clase "Perro" hereda las propiedades "nombre" y "edad" de la clase "Animal" y también tiene su propia propiedad "raza". Además, la clase "Perro" tiene su propio método "ladrar()", que no está presente en la clase "Animal".
 
-Con esta herencia, podemos crear objetos "Perro" que tengan todas las propiedades y métodos de la clase "Animal" y también las propiedades y métodos adicionales de la clase "Perro". 
 
-Para comprobar que todo funciona correctamente, he creado un programa que crea un objeto de la clase "Perro" y lo utiliza para mostrar los valores de sus atributos. Luego, modifica el valor del atributo "nombre" y muestra el valor actualizado del mismo.
+Finalmente, el objeto ejemplo contiene un método main que crea una instancia de Animal llamada miAnimal y una instancia de Perro llamada miPerro, y luego llama a los métodos hacerSonido y ladrar de miAnimal y miPerro, respectivamente, para producir la salida en la consola.
 
-```java
+```scala
 public class ejemplo {
     public static void main(String[] args) {
         Animal miAnimal = new Animal("Mimi", 2);

@@ -1,4 +1,3 @@
-package temas.anotaciones;
 
 public @interface Autor {
 

@@ -1,27 +1,27 @@
- La delegación en Java es un patrón de diseño que permite a un objeto utilizar los servicios de otro objeto para realizar una tarea en su nombre. En lugar de realizar la tarea por sí mismo, el objeto delega la tarea a otro objeto, que es responsable de realizarla. Cabe destacar que la delegación no es lo mismo que la herencia, ya que en la delegación un objeto utiliza los servicios de otro objeto sin ser una instancia de su clase o subclase. Además, la delegación permite una mayor flexibilidad y modularidad en el diseño de software, ya que los objetos pueden delegar tareas a otros objetos sin necesidad de conocer todos los detalles de su implementación interna.
+En Scala, la delegación también se puede implementar utilizando el patrón de diseño delegación, el cual permite a un objeto utilizar los servicios de otro objeto para realizar una tarea en su nombre. La delegación en Scala es similar a la delegación en Java, en el sentido de que un objeto utiliza los servicios de otro objeto sin ser una instancia de su clase o subclase.
 
-Dicho esto, he creado una clase Lavadora tiene un objeto LavadoraAutomatica como atributo y en el método lavarRopa() delega la tarea de lavado a la clase LavadoraAutomatica llamando a su método lavar(). De esta manera, la clase Lavadora no tiene que implementar la lógica de lavado de ropa, sino que delega la tarea a otro objeto especializado en ella.
+Para implementar la delegación en Scala, puedes definir una clase que tenga un objeto de otra clase como atributo. Luego, en el método que deseas delegar, puedes llamar al método correspondiente del objeto que está almacenado en el atributo. De esta manera, el objeto delega la tarea a otro objeto especializado en ella sin tener que implementar la lógica por sí mismo.
 
-```java
-public class Lavadora {
-    private LavadoraAutomatica lavadoraAutomatica;
+Por ejemplo, en Scala, podrías definir una clase Lavadora que tenga un objeto LavadoraAutomatica como atributo y en el método lavarRopa() delegar la tarea de lavado a la clase LavadoraAutomatica llamando a su método lavar(). De esta forma, la clase Lavadora no tiene que implementar la lógica de lavado de ropa, sino que delega la tarea a otro objeto especializado en ella, al igual que en Java.
+
+```scala
+class Lavadora {
+    private val lavadoraAutomatica: LavadoraAutomatica = new LavadoraAutomatica()
     
-    public Lavadora() {
-        this.lavadoraAutomatica = new LavadoraAutomatica();
-    }
-    
-    public void lavarRopa() {
-        lavadoraAutomatica.lavar();
-    }
-}
-
-public class LavadoraAutomatica {
-    public void lavar() {
-        System.out.println("La lavadora está lavando la ropa...");
+    def lavarRopa(): Unit = {
+    lavadoraAutomatica.lavar()
     }
 }
 ```
-Este código en lenguaje Java representa dos clases, la primera llamada "Lavadora" y la segunda llamada "LavadoraAutomatica". La clase Lavadora tiene un objeto de tipo LavadoraAutomatica que se utiliza para lavar la ropa.
+    
+```scala
+class LavadoraAutomatica {
+    def lavar(): Unit = {
+    println("La lavadora está lavando la ropa...")
+    }
+}
+```
+Este código en Scala representa dos clases, la primera llamada "Lavadora" y la segunda llamada "LavadoraAutomatica". La clase Lavadora tiene un objeto de tipo LavadoraAutomatica que se utiliza para lavar la ropa.
 
 En términos de delegación, la clase Lavadora delega la tarea de lavar la ropa a la clase LavadoraAutomatica, ya que utiliza su objeto para ejecutar el método "lavar()" que imprime en la consola el mensaje "La lavadora está lavando la ropa...".
 
@@ -29,12 +29,13 @@ Por lo tanto, la clase Lavadora no implementa directamente la lógica de lavado 
 
 Para comprobar que todo funciona correctamente, he creado una clase de prueba llamada "ejemplo" que crea un objeto de tipo Lavadora y llama al método "lavarRopa()".
 
-```java
+```scala
 
-public class ejemplo {
-    public static void main(String[] args) {
-        Lavadora l = new Lavadora();
-        l.lavarRopa();
-    }
+object EjemploDelegacion {
+  def main(args: Array[String]): Unit = {
+    val lavadora = new Lavadora()
+    lavadora.lavarRopa()
+  }
 }
+
 ```
