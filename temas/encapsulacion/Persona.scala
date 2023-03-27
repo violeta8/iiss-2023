@@ -1,22 +1,19 @@
-class Persona(private var nombre: String, private var edad: Int, private var genero: Char) {
+class Persona(private var _nombre: String, private var _edad: Int, private var _genero: Char) {
+  def nombre: String = _nombre
 
-  // Métodos de acceso (getters)
-  def getNombre(): String = nombre
-  
-  def getEdad(): Int = edad
-  
-  def getGenero(): Char = genero
-  
-  // Métodos de modificación (setters)
-  def setNombre(nombre: String): Unit = {
-    this.nombre = nombre
+  def edad: Int = _edad
+
+  def genero: Char = _genero
+
+  def nombre_=(nuevoNombre: String): Unit = {
+    _nombre = nuevoNombre
   }
-  
-  def setEdad(edad: Int): Unit = {
-    this.edad = edad
+
+  def edad_=(nuevaEdad: Int): Unit = {
+    _edad = nuevaEdad
   }
-  
-  def setGenero(genero: Char): Unit = {
-    this.genero = genero
+
+  def genero_=(nuevoGenero: Char): Unit = {
+    _genero = nuevoGenero
   }
 }
