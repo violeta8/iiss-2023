@@ -1,80 +1,50 @@
-El principio de encapsulación en Scala se refiere a la técnica de ocultar los detalles internos de una clase, para que solo se pueda interactuar con ella a través de una interfaz pública, definida por sus métodos de acceso y modificación.
+Primero, se define una clase abstracta Persona con dos campos: nombre, que es un valor de cadena, y edad, que es un valor entero mutable. La clase es abstracta, lo que significa que no se puede crear una instancia directa de ella, sino que debe ser extendida por clases concretas.
 
-Supongamos que queremos crear una clase "Persona" que tenga los siguientes atributos: nombre, edad y género. Para asegurarnos de que estos atributos sean modificados y accedidos de manera adecuada, aplicaremos el principio de encapsulación. El cual intenta lograr un código más robusto y mantenible, ya que al ocultar la complejidad interna de un objeto, se pueden realizar cambios en su implementación sin afectar al resto del programa. Además, la encapsulación ayuda a prevenir errores y garantiza la integridad de los datos al controlar el acceso y la manipulación de los mismos.
-
-```scala 
-class Persona(private var nombre: String, private var edad: Int, private var genero: Char) {
-
-  // Métodos de acceso (getters)
-  def getNombre(): String = nombre
-  
-  def getEdad(): Int = edad
-  
-  def getGenero(): Char = genero
-  
-  // Métodos de modificación (setters)
-  def setNombre(nombre: String): Unit = {
-    this.nombre = nombre
-  }
-  
-  def setEdad(edad: Int): Unit = {
-    this.edad = edad
-  }
-  
-  def setGenero(genero: Char): Unit = {
-    this.genero = genero
-  }
+```scala
+abstract class Persona(val nombre: String, var edad: Int) {
+  type T <: Persona
+  def presentarse(): String
+  def envejecer(): T
 }
 ```
 
-En este ejemplo: 
-Primero, se definiría la clase "Persona" con sus atributos privados "nombre", "edad" y "género":
+Luego, se definen dos clases Hombre y Mujer que extienden la clase abstracta Persona y definen el tipo T como ellos mismos. Además, cada clase define su propio método presentarse() que utiliza los campos nombre y edad de la clase para imprimir una presentación personalizada.
+
 ```scala
-class Persona(private var nombre: String, private var edad: Int, private var genero: String) {
-  // ...
+case class Hombre(override val nombre: String,  var e: Int) extends Persona(nombre, e) {
+  type T = Hombre
+  
+  def presentarse(): String = s"Hola, mi nombre es $nombre y tengo $edad años."
+  def envejecer(): Hombre = Hombre(nombre, edad + 1)
+
+}
+
+case class Mujer(override val nombre: String,  var e: Int) extends Persona(nombre, e) {
+  type T = Mujer
+  
+  def presentarse(): String = s"Hola, soy $nombre y tengo $edad años."
+  def envejecer(): Mujer = Mujer(nombre, edad + 1)
 }
 ```
 
-A continuación, se definirían los métodos públicos "getNombre()", "getEdad()" y "getGenero()" para acceder a los atributos privados, así como los métodos públicos "setNombre()", "setEdad()" y "setGenero()" para modificar los atributos privados:
-```scala
-def setNombre(nombre: String): Unit = {
-    this.nombre = nombre
-}
-  
-def setEdad(edad: Int): Unit = {
-    this.edad = edad
-}
-  
-def setGenero(genero: Char): Unit = {
-    this.genero = genero
-}
-```
-
-También se han definido tres métodos públicos llamados "setNombre()", "setEdad()" y "setGenero()". Estos métodos se conocen como "setters" y se utilizan para modificar los valores de los atributos privados de la clase desde fuera de la misma. Cada método toma un parámetro y lo utiliza para actualizar el valor del atributo correspondiente.
-
-Finalmente, se ha definido un constructor público para la clase "Persona" que toma tres parámetros ("nombre", "edad" y "género") y los utiliza para inicializar los atributos correspondientes de la clase.
-
-En conjunto, estos elementos forman un ejemplo básico de cómo se puede aplicar el principio de encapsulación en Scala mediante la definición de atributos privados y métodos públicos para acceder y modificar dichos atributos.
-
-A parte para comprobar que todo funciona correctamente he creado un programa que crea un objeto de la clase "Persona" y lo utiliza para mostrar los valores de sus atributos. Luego, modifica el valor del atributo "nombre" y muestra el valor actualizado del mismo.
+En el método main, se crean instancias de Hombre y Mujer y se utilizan los métodos presentarse() para imprimir información sobre ellos. Luego, se llama al método envejecer() de cada instancia, lo que aumenta su edad en uno. Finalmente, se llama al método presentarse() nuevamente para imprimir la información actualizada.
 
 ```scala
-object ejemplo {
+object Main {
   def main(args: Array[String]): Unit = {
-    // Crear una instancia de la clase Persona
-    val persona1 = new Persona("Juan", 25, 'M')
+    val hombre: Hombre = Hombre("Juan", 30)
+    val mujer: Mujer = Mujer("Maria", 25)
 
-    // Obtener los valores de los atributos de la clase Persona
-    println("Nombre: " + persona1.getNombre())
-    println("Edad: " + persona1.getEdad())
-    println("Género: " + persona1.getGenero())
+    println(hombre.presentarse())
+    println(mujer.presentarse())
 
-    // Modificar el valor del atributo "nombre"
-    persona1.setNombre("Tu padre")
+    val hombreMayor = hombre.envejecer()
+    val mujerMayor = mujer.envejecer()
 
-    // Obtener el valor actualizado del atributo "nombre"
-    println("Nombre actualizado: " + persona1.getNombre())
+    println(hombreMayor.presentarse())
+    println(mujerMayor.presentarse())
   }
-} 
+}
 ```
 
+El uso de un campo abstracto T permite que las clases Hombre y Mujer se referencien a sí mismas dentro de su propia definición, lo que permite definir métodos como envejecer que trabajan con instancias de su mismo tipo. Esto hace que el código sea más flexible y fácil de mantener, ya que no se necesitan definir métodos separados para cada tipo de persona. Además, el uso de clases case permite una implementación más concisa de las clases, lo que hace que el código sea más fácil de leer y entender.

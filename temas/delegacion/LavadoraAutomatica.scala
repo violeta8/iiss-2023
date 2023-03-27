@@ -1,5 +1,5 @@
 class LavadoraAutomatica {
-    def lavar(): Unit = {
+  def lavar(): Unit = {
     println("La lavadora está lavando la ropa...")
-    }
+  }
 }

@@ -1,19 +1,20 @@
-class Persona(private var _nombre: String, private var _edad: Int, private var _genero: Char) {
-  def nombre: String = _nombre
+abstract class Persona(val nombre: String, var edad: Int) {
+  type T <: Persona
+  def presentarse(): String
+  def envejecer(): T
+}
 
-  def edad: Int = _edad
+case class Hombre(override val nombre: String,  var e: Int) extends Persona(nombre, e) {
+  type T = Hombre
+  
+  def presentarse(): String = s"Hola, mi nombre es $nombre y tengo $edad años."
+  def envejecer(): Hombre = Hombre(nombre, edad + 1)
 
-  def genero: Char = _genero
+}
 
-  def nombre_=(nuevoNombre: String): Unit = {
-    _nombre = nuevoNombre
-  }
-
-  def edad_=(nuevaEdad: Int): Unit = {
-    _edad = nuevaEdad
-  }
-
-  def genero_=(nuevoGenero: Char): Unit = {
-    _genero = nuevoGenero
-  }
+case class Mujer(override val nombre: String,  var e: Int) extends Persona(nombre, e) {
+  type T = Mujer
+  
+  def presentarse(): String = s"Hola, soy $nombre y tengo $edad años."
+  def envejecer(): Mujer = Mujer(nombre, edad + 1)
 }
