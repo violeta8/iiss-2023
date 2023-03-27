@@ -13,7 +13,7 @@ La anotación se aplica a campos (ElementType.FIELD) y se retiene en tiempo de e
 
 # Clase CuentaBancaria
 La clase CuentaBancaria representa una cuenta bancaria y tiene un campo para la implementación de ITransferencia que necesita inyección de dependencias en tiempo de ejecución.
-````java
+```java
 public class CuentaBancaria {
 
     @InjectDependency
@@ -72,3 +72,39 @@ La implementación TransferenciaRemota realiza transferencias entre cuentas banc
 # Clase principal Main
 La clase principal Main crea una instancia de CuentaBancaria y utiliza la inyección de dependencias en tiempo de ejecución para definir la implementación de ITransferencia que se utilizará.
 
+```java
+import java.lang.reflect.Field;
+
+public class Main {
+
+    public static void main(String[] args) {
+        CuentaBancaria cuenta1 = new CuentaBancaria(1000);
+
+        // Inyección de dependencias en tiempo de ejecución
+        ITransferencia transferencia = new TransferenciaLocal();
+        inyectarDependencias(cuenta1, transferencia);
+
+        CuentaBancaria cuenta2 = new CuentaBancaria(500);
+
+        cuenta1.transferir(200, cuenta2);
+
+        System.out.println("Saldo cuenta 1: " + cuenta1.getSaldo()); // Debería ser 800
+        System.out.println("Saldo cuenta 2: " + cuenta2.getSaldo()); // Debería ser 700
+    }
+
+    private static void inyectarDependencias(CuentaBancaria cuentaBancaria, ITransferencia transferencia) {
+        Field[] fields = cuentaBancaria.getClass().getDeclaredFields();
+        for (Field field : fields) {
+            if (field.isAnnotationPresent(InjectDependency.class)) {
+                try {
+                    field.setAccessible(true);
+                    field.set(cuentaBancaria, transferencia);
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+}
+
+```
