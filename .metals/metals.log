@@ -2499,3 +2499,114 @@ WARNING: Unmatched cancel notification for request id 231
 2023.05.01 03:00:52 INFO  Shutting down server
 2023.05.01 03:00:52 INFO  shutting down Metals
 2023.05.01 03:00:52 INFO  Exiting server
+2023.05.01 03:01:09 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023' for client Visual Studio Code 1.77.3.
+may 01, 2023 3:01:09 A. M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+may 01, 2023 3:01:09 A. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+may 01, 2023 3:01:09 A. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+may 01, 2023 3:01:10 A. M. org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\.metals\metals (H2 2.1)
+may 01, 2023 3:01:10 A. M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.030s)
+may 01, 2023 3:01:10 A. M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+may 01, 2023 3:01:10 A. M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.01 03:01:10 INFO  time: initialize in 0.96s
+2023.05.01 03:01:14 WARN  Build server is not auto-connectable.
+2023.05.01 03:01:14 WARN  no build tool detected in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.05.01 03:01:14 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:01:19 INFO  no build target found for C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.01 03:01:20 INFO  time: code lens generation in 6.67s
+2023.05.01 03:01:20 INFO  time: code lens generation in 3.31s
+2023.05.01 03:01:43 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\AsyncSum.scala
+2023.05.01 03:01:57 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\AsyncSum.scala
+2023.05.01 03:02:02 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:04:44 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\AsyncSum.scala
+2023.05.01 03:04:45 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\AsyncSum.scala
+2023.05.01 03:07:06 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:11:23 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:11:24 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:11:55 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:11:59 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:12:04 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:12:05 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:12:09 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:12:11 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:12:12 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:12:22 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:12:25 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:12:27 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:12:30 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:12:50 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:12:53 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:25:28 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\anotaciones\CuentaBancaria.java
+2023.05.01 03:25:31 ERROR text document: file:///C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/anotaciones/CuentaBancaria.java
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/anotaciones/CuentaBancaria.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:86)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:80)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:79)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:69)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:69)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:85)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:85)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:85)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1324)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1780)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1778)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1589)
+
+2023.05.01 03:25:31 INFO  time: code lens generation in 2.79s
+may 01, 2023 3:26:05 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.05.01 03:52:24 INFO  Shutting down server
+2023.05.01 03:52:24 INFO  shutting down Metals
+2023.05.01 03:52:24 INFO  Exiting server
+2023.05.01 03:52:34 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023' for client Visual Studio Code 1.77.3.
+may 01, 2023 3:52:34 A. M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+may 01, 2023 3:52:34 A. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+may 01, 2023 3:52:34 A. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+may 01, 2023 3:52:35 A. M. org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\.metals\metals (H2 2.1)
+may 01, 2023 3:52:35 A. M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.029s)
+may 01, 2023 3:52:35 A. M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+may 01, 2023 3:52:35 A. M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.01 03:52:35 INFO  time: initialize in 0.85s
+2023.05.01 03:52:38 WARN  Build server is not auto-connectable.
+2023.05.01 03:52:38 WARN  no build tool detected in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+may 01, 2023 4:18:43 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

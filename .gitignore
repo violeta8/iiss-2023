@@ -40,3 +40,6 @@
 .DS_Store
 .vscode/settings.json
 .project
+.metals/metals.lock.db
+.metals/metals.log
+.metals/metals.lock.db
