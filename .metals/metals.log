@@ -1759,3 +1759,743 @@ java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/User
 2023.03.27 17:49:05 INFO  Shutting down server
 2023.03.27 17:49:05 INFO  shutting down Metals
 2023.03.27 17:49:05 INFO  Exiting server
+2023.03.28 16:33:15 INFO  Started: Metals version 0.11.11 in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023' for client Visual Studio Code 1.76.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/viole/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.28 16:33:16 INFO  time: initialize in 1.42s
+2023.03.28 16:33:19 WARN  Build server is not auto-connectable.
+2023.03.28 16:33:19 WARN  no build tool detected in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.03.28 16:33:19 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\LavadoraAutomatica.scala
+2023.03.28 16:33:22 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\FiguraEditorAspect.scala
+2023.03.28 16:33:22 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\FiguraEditorAspect.scala
+2023.03.28 16:33:27 INFO  no build target found for C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\LavadoraAutomatica.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.28 16:33:31 INFO  time: code lens generation in 9.03s
+2023.03.28 16:33:47 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\FiguraEditorAspect.scala
+2023.03.28 16:34:26 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\FiguraEditorAspect.scala
+2023.03.28 16:34:30 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\FiguraEditorAspect.scala
+2023.03.28 16:34:41 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\Main.scala
+2023.03.28 16:34:41 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\Main.scala
+2023.03.28 16:34:45 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\Main.scala
+2023.03.28 16:34:48 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\Main.scala
+2023.03.28 16:37:30 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\FiguraEditor.scala
+2023.03.28 16:37:30 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\FiguraEditor.scala
+2023.03.28 16:37:31 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\FiguraEditor.scala
+2023.03.28 16:37:31 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\FiguraEditor.scala
+2023.03.28 16:37:49 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\PruebaEditor.scala
+2023.03.28 16:37:54 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\PruebaEditor.scala
+2023.03.28 16:37:57 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\PruebaEditor.scala
+mar 28, 2023 4:44:04 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Toplevel definition editor is defined in
+  C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/aspectos/Main.scala
+and also in
+  C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/aspectos/PruebaEditor.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition editor is defined in
+  C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/aspectos/Main.scala
+and also in
+  C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/aspectos/PruebaEditor.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2447)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$5(SymDenotations.scala:2411)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2467)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2023)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2074)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:686)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:811)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:703)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:879)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:669)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:653)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1020)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:925)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.BitmapIndexedSetNode.foreach(HashSet.scala:937)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:944)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:925)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1020)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:149)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:207)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:99)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:61)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:41)
+
+2023.03.28 16:44:05 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\PruebaEditor.scala
+2023.03.28 16:44:09 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\PruebaEditor.scala
+2023.03.28 16:44:10 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\PruebaEditor.scala
+mar 28, 2023 4:45:17 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 181
+mar 28, 2023 4:48:08 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 184
+2023.03.28 16:48:13 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\PruebaEditor.scala
+2023.03.28 16:48:15 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\PruebaEditor.scala
+2023.03.28 16:48:22 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\Main.scala
+2023.03.28 16:48:23 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\Main.scala
+2023.03.28 16:53:54 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\build.sbt
+2023.03.28 16:53:54 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\build.sbt
+2023.03.28 16:59:41 ERROR text document: file:///c:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/aspectos/build.sbt
+java.nio.file.NoSuchFileException: c:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\build.sbt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.nio.file.Files.readAllBytes(Files.java:3287)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:90)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:90)
+	at java.util.HashMap.compute(HashMap.java:1324)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1761)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1759)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1589)
+
+2023.03.28 16:59:47 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\project\Dependencies.scala
+2023.03.28 16:59:54 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\project\FiguraEditor.scala
+2023.03.28 16:59:54 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\project\FiguraEditorAspect.scala
+2023.03.28 16:59:54 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\project\Main.scala
+2023.03.28 17:00:10 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\build.sbt
+2023.03.28 17:00:20 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\build.sbt
+2023.03.28 17:00:37 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\build.sbt
+2023.03.28 17:00:39 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\build.sbt
+2023.03.28 17:01:00 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\build.sbt
+2023.03.28 17:01:02 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\build.sbt
+2023.03.28 17:01:03 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\build.sbt
+2023.03.28 17:01:05 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\build.sbt
+2023.03.28 17:01:51 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\build.sbt
+2023.03.28 17:01:53 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\build.sbt
+2023.03.28 17:01:54 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\build.sbt
+2023.03.28 17:02:57 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\src\main\scala\example\Main.scala
+2023.03.28 17:02:57 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\src\main\scala\example\FiguraEditorAspect.scala
+2023.03.28 17:02:57 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\src\main\scala\example\FiguraEditor.scala
+2023.03.28 17:02:57 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\project\Dependencies.scala
+2023.03.28 17:04:22 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\project\plugins.sbt
+2023.03.28 17:04:22 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\project\plugins.sbt
+2023.03.28 17:04:26 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\project\plugins.sbt
+2023.03.28 17:04:27 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\project\plugins.sbt
+2023.03.28 17:32:31 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.03.28 17:32:31 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.03.28 17:32:35 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.03.28 17:33:54 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.03.28 17:34:09 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.03.28 17:34:10 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.03.28 17:34:11 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.03.28 17:35:14 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.03.28 17:35:19 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.03.28 17:40:49 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.03.28 17:40:49 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.03.28 17:40:51 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.03.28 17:41:03 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\getOperatingSystems.scala
+2023.03.28 17:41:03 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\getOperatingSystems.scala
+2023.03.28 17:41:15 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\OperatingSystems.scala
+2023.03.28 17:41:24 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.03.28 17:41:27 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.03.28 17:41:30 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.03.28 17:41:32 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\OperatingSystems.scala
+2023.03.28 17:41:35 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.03.28 17:41:37 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.03.28 17:43:02 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\pruebaaspectos\build.sbt
+mar 28, 2023 5:43:05 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.28 17:47:53 INFO  Shutting down server
+2023.03.28 17:47:53 INFO  shutting down Metals
+2023.03.28 17:47:53 INFO  Exiting server
+2023.04.04 19:58:47 INFO  Started: Metals version 0.11.11 in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023' for client Visual Studio Code 1.77.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/viole/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.04 19:58:50 INFO  time: initialize in 2.43s
+2023.04.04 19:58:56 WARN  Build server is not auto-connectable.
+2023.04.04 19:58:56 WARN  no build tool detected in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.04 19:58:57 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\OperatingSystems.scala
+abr 04, 2023 7:58:56 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.04.04 19:59:04 INFO  no build target found for C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\OperatingSystems.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.04 19:59:08 INFO  time: code lens generation in 11s
+2023.04.04 20:52:22 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.04.04 20:52:22 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.04.04 20:52:28 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\AccountNumberComparator.scala
+2023.04.04 20:52:28 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccount.scala
+2023.04.04 20:52:29 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparator.scala
+2023.04.04 20:52:29 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountIdentifier.scala
+2023.04.04 20:52:30 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountModule.scala
+2023.04.04 20:52:31 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.scala
+abr 04, 2023 8:52:37 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+abr 08, 2023 5:15:23 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 193
+2023.04.08 17:29:40 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.08 17:29:40 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\BankAccountModule.scala
+2023.04.08 17:29:40 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\BankAccountIdentifier.scala
+2023.04.08 17:29:40 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\BankAccountComparator.scala
+2023.04.08 17:29:40 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\AccountNumberComparator.scala
+2023.04.08 17:29:40 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\BankAccount.scala
+2023.04.08 17:29:40 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\App.java
+2023.04.08 17:29:45 ERROR text document: file:///C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/inyeccion/demo/src/main/java/com/example/App.java
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/inyeccion/demo/src/main/java/com/example/App.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1955)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1324)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1761)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1759)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1589)
+
+2023.04.08 17:29:45 INFO  time: code lens generation in 1.37s
+2023.04.08 17:29:45 WARN  Running javac-semanticdb failed for file:///C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/inyeccion/demo/src/main/java/com/example/App.java. Output:
+error: error reading C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\App.java; C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\App.java
+1 error
+2023.04.08 17:31:06 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\build.sbt
+2023.04.08 17:31:06 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\build.sbt
+2023.04.08 17:31:10 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\build.sbt
+2023.04.08 17:32:40 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\build.sbt
+2023.04.08 17:46:12 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\AccountNumberComparator.scala
+2023.04.08 17:51:31 WARN  Using indexes to guess the definition of identify
+2023.04.08 17:54:13 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\BankAccount.scala
+abr 08, 2023 5:54:27 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Index -1 out of bounds for length 413
+java.lang.StringIndexOutOfBoundsException: Index -1 out of bounds for length 413
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.lang.String.checkIndex(String.java:4570)
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:46)
+	at java.base/java.lang.String.charAt(String.java:1527)
+	at scala.collection.StringOps$.apply$extension(StringOps.scala:188)
+	at scala.meta.internal.pc.PcCollector.adjust(PcCollector.scala:84)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.collect(PcDocumentHighlightProvider.scala:25)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.collect(PcDocumentHighlightProvider.scala:18)
+	at scala.meta.internal.pc.PcCollector.scala$meta$internal$pc$PcCollector$$_$collect$1(PcCollector.scala:318)
+	at scala.meta.internal.pc.PcCollector.collectNamesWithParent$1(PcCollector.scala:359)
+	at scala.meta.internal.pc.PcCollector.$anonfun$14(PcCollector.scala:457)
+	at scala.meta.internal.pc.PcCollector$WithParentTraverser.traverse(PcCollector.scala:489)
+	at scala.meta.internal.pc.PcCollector$WithParentTraverser.traverse$$anonfun$1(PcCollector.scala:491)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector$WithParentTraverser.traverse(PcCollector.scala:491)
+	at scala.meta.internal.pc.PcCollector$WithParentTraverser.traverse$$anonfun$1(PcCollector.scala:491)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector$WithParentTraverser.traverse(PcCollector.scala:491)
+	at scala.meta.internal.pc.PcCollector$WithParentTraverser.traverse$$anonfun$1(PcCollector.scala:491)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector$WithParentTraverser.traverse(PcCollector.scala:491)
+	at scala.meta.internal.pc.PcCollector$DeepFolderWithParent.apply(PcCollector.scala:497)
+	at scala.meta.internal.pc.PcCollector.traverseSought(PcCollector.scala:458)
+	at scala.meta.internal.pc.PcCollector.resultWithSought(PcCollector.scala:296)
+	at scala.meta.internal.pc.PcCollector.result(PcCollector.scala:236)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.highlights(PcDocumentHighlightProvider.scala:32)
+
+2023.04.08 17:55:04 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\AccountNumberComparator.scala
+2023.04.08 17:55:05 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\BankAccount.scala
+2023.04.08 17:55:06 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\BankAccountIdentifier.scala
+2023.04.08 17:55:08 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.08 17:55:25 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\test\java\com\example\AppTest.java
+2023.04.08 17:55:28 ERROR text document: file:///C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/inyeccion/demo/src/test/java/com/example/AppTest.java
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/inyeccion/demo/src/test/java/com/example/AppTest.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:85)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:78)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:78)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:68)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:68)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:81)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:77)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1324)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1761)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1759)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1589)
+
+2023.04.08 17:55:28 INFO  time: code lens generation in 1.96s
+2023.04.09 11:52:44 INFO  Shutting down server
+2023.04.09 11:52:44 INFO  shutting down Metals
+2023.04.09 11:52:44 INFO  Exiting server
+2023.04.24 16:54:37 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023' for client Visual Studio Code 1.77.3.
+abr 24, 2023 4:54:37 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+abr 24, 2023 4:54:37 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+abr 24, 2023 4:54:37 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+abr 24, 2023 4:54:38 P. M. org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\.metals\metals (H2 2.1)
+abr 24, 2023 4:54:38 P. M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.018s)
+abr 24, 2023 4:54:38 P. M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+abr 24, 2023 4:54:38 P. M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.24 16:54:38 INFO  time: initialize in 0.7s
+2023.04.24 16:54:40 WARN  Build server is not auto-connectable.
+2023.04.24 16:54:40 WARN  no build tool detected in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.24 16:54:40 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.04.24 16:54:45 INFO  no build target found for C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.24 16:54:47 INFO  time: code lens generation in 7.14s
+2023.04.24 16:55:10 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\AccountNumberComparator.scala
+2023.04.24 16:55:11 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\build.sbt
+2023.04.24 16:55:12 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+abr 24, 2023 4:55:12 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+abr 24, 2023 4:55:12 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+2023.04.24 16:55:12 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\BankAccountIdentifier.scala
+2023.04.24 16:55:12 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\BankAccount.scala
+2023.04.24 16:55:12 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\BankAccountModule.scala
+2023.04.24 16:55:13 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\BankAccountComparator.scala
+2023.04.24 16:55:17 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.04.24 16:55:17 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.04.24 16:55:18 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\OperatingSystems.scala
+2023.04.24 17:06:42 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.04.24 17:06:44 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.04.24 17:07:08 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.04.30 18:21:08 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023' for client Visual Studio Code 1.77.3.
+abr 30, 2023 6:21:08 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+abr 30, 2023 6:21:08 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+abr 30, 2023 6:21:08 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+abr 30, 2023 6:21:14 P. M. org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\.metals\metals (H2 2.1)
+abr 30, 2023 6:21:14 P. M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.064s)
+abr 30, 2023 6:21:14 P. M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+abr 30, 2023 6:21:14 P. M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.30 18:21:14 INFO  time: initialize in 6.17s
+2023.04.30 18:21:20 WARN  Build server is not auto-connectable.
+2023.04.30 18:21:20 WARN  no build tool detected in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.30 18:21:20 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.04.30 18:21:34 INFO  no build target found for C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.30 18:21:39 INFO  time: code lens generation in 15s
+2023.04.30 18:21:39 INFO  time: code lens generation in 15s
+2023.04.30 18:22:36 INFO  
+2023.04.30 18:22:36 INFO  Template applied in C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\.\inyeccion
+2023.04.30 18:22:36 INFO  
+2023.04.30 18:22:36 INFO  time: ran 'giter8.Giter8' in 8.67s
+2023.04.30 18:22:43 INFO  Shutting down server
+2023.04.30 18:22:43 INFO  shutting down Metals
+2023.04.30 18:22:43 INFO  Exiting server
+2023.04.30 18:23:37 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023' for client Visual Studio Code 1.77.3.
+abr 30, 2023 6:23:37 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+abr 30, 2023 6:23:37 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+abr 30, 2023 6:23:37 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+abr 30, 2023 6:23:38 P. M. org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\.metals\metals (H2 2.1)
+abr 30, 2023 6:23:38 P. M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.070s)
+abr 30, 2023 6:23:38 P. M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+abr 30, 2023 6:23:38 P. M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.30 18:23:39 INFO  time: initialize in 1.76s
+2023.04.30 18:23:45 WARN  Build server is not auto-connectable.
+2023.04.30 18:23:45 WARN  no build tool detected in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+abr 30, 2023 6:23:45 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.04.30 18:23:45 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+abr 30, 2023 6:23:45 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+abr 30, 2023 6:23:45 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+abr 30, 2023 6:23:45 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+abr 30, 2023 6:23:45 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+abr 30, 2023 6:23:49 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.04.30 18:23:51 INFO  no build target found for C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.30 18:23:56 INFO  time: code lens generation in 10s
+abr 30, 2023 6:24:19 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.04.30 18:24:49 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\build.sbt
+2023.04.30 18:24:56 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:25:21 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\build.sbt
+2023.04.30 18:28:51 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:29:02 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\BankAccountModule.scala
+2023.04.30 18:29:04 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:35:59 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\build.sbt
+2023.04.30 18:36:10 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:36:21 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\build.sbt
+2023.04.30 18:36:23 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:36:27 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:36:30 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:36:33 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:36:43 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:36:47 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:36:50 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:36:52 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:36:58 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\build.sbt
+abr 30, 2023 6:42:20 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 261
+2023.04.30 18:45:02 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:45:05 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:45:05 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023.04.30 18:45:11 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:45:12 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:45:15 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 18:45:16 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 19:00:10 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\build.sbt
+2023.04.30 19:00:31 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\build.sbt
+2023.04.30 19:00:34 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\build.sbt
+2023.04.30 19:00:36 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\build.sbt
+2023.04.30 19:16:23 INFO  Shutting down server
+2023.04.30 19:16:23 INFO  shutting down Metals
+2023.04.30 19:16:23 INFO  Exiting server
+2023.04.30 19:16:56 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023' for client Visual Studio Code 1.77.3.
+abr 30, 2023 7:16:56 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+abr 30, 2023 7:16:56 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+abr 30, 2023 7:16:56 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+abr 30, 2023 7:16:57 P. M. org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\.metals\metals (H2 2.1)
+abr 30, 2023 7:16:57 P. M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.042s)
+abr 30, 2023 7:16:57 P. M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+abr 30, 2023 7:16:57 P. M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.30 19:16:57 INFO  time: initialize in 1.09s
+2023.04.30 19:17:01 WARN  Build server is not auto-connectable.
+2023.04.30 19:17:01 WARN  no build tool detected in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.30 19:17:01 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.04.30 19:17:01 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\build.sbt
+2023.04.30 19:17:01 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\src\main\java\com\example\Main.scala
+2023.04.30 19:17:09 INFO  no build target found for C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\demo\build.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.30 19:20:55 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\OperatingSystems.scala
+2023.04.30 19:20:55 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.04.30 19:35:27 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023' for client Visual Studio Code 1.77.3.
+abr 30, 2023 7:35:27 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+abr 30, 2023 7:35:27 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+abr 30, 2023 7:35:27 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+abr 30, 2023 7:35:32 P. M. org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\.metals\metals (H2 2.1)
+abr 30, 2023 7:35:32 P. M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.059s)
+abr 30, 2023 7:35:32 P. M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+abr 30, 2023 7:35:32 P. M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.30 19:35:32 INFO  time: initialize in 5.07s
+2023.04.30 19:35:38 WARN  Build server is not auto-connectable.
+2023.04.30 19:35:38 WARN  no build tool detected in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.30 19:35:38 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.04.30 19:35:46 INFO  no build target found for C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.30 19:35:50 INFO  time: code lens generation in 12s
+2023.04.30 19:36:06 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+abr 30, 2023 7:36:11 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+2023.04.30 19:36:11 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.04.30 19:36:14 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.04.30 19:36:17 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.04.30 19:36:19 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.04.30 19:36:23 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.04.30 19:36:44 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.04.30 19:36:47 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.04.30 19:36:51 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.04.30 19:36:53 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.04.30 19:36:55 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.04.30 19:44:43 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.04.30 19:44:51 WARN  Using indexes to guess the definition of ComponenteMotor
+2023.04.30 19:44:53 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.04.30 19:45:10 INFO  Shutting down server
+2023.04.30 19:45:10 INFO  shutting down Metals
+2023.04.30 19:45:10 INFO  Exiting server
+2023.04.30 19:45:24 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023' for client Visual Studio Code 1.77.3.
+abr 30, 2023 7:45:25 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+abr 30, 2023 7:45:25 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+abr 30, 2023 7:45:25 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+abr 30, 2023 7:45:25 P. M. org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\.metals\metals (H2 2.1)
+abr 30, 2023 7:45:25 P. M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.040s)
+abr 30, 2023 7:45:25 P. M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+abr 30, 2023 7:45:25 P. M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.30 19:45:25 INFO  time: initialize in 1.03s
+2023.04.30 19:45:29 WARN  Build server is not auto-connectable.
+2023.04.30 19:45:29 WARN  no build tool detected in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.30 19:45:29 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.04.30 19:45:34 INFO  no build target found for C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.01 00:32:34 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023' for client Visual Studio Code 1.77.3.
+may 01, 2023 12:32:34 A. M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+may 01, 2023 12:32:34 A. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+may 01, 2023 12:32:34 A. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+may 01, 2023 12:32:39 A. M. org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\.metals\metals (H2 2.1)
+may 01, 2023 12:32:39 A. M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.062s)
+may 01, 2023 12:32:39 A. M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+may 01, 2023 12:32:39 A. M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.01 00:32:39 INFO  time: initialize in 5.33s
+2023.05.01 00:32:44 WARN  Build server is not auto-connectable.
+2023.05.01 00:32:44 WARN  no build tool detected in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.05.01 00:32:44 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\anotaciones\TransferenciaLocal.java
+2023.05.01 00:32:48 ERROR text document: file:///C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/anotaciones/TransferenciaLocal.java
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/anotaciones/TransferenciaLocal.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:86)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:80)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:79)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:69)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:69)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:85)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:85)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:85)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1324)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1780)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1778)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1589)
+
+2023.05.01 00:32:48 INFO  time: code lens generation in 3.26s
+may 01, 2023 2:01:57 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.05.01 02:21:08 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+may 01, 2023 2:21:09 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+may 01, 2023 2:21:09 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+may 01, 2023 2:21:09 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+2023.05.01 02:21:12 INFO  no build target found for C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.01 02:21:29 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.05.01 02:21:31 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.05.01 02:21:38 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+2023.05.01 02:21:38 ERROR text document: file:///c:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/undefined/MobileDevice.scala
+java.nio.file.NoSuchFileException: c:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\MobileDevice.scala
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.nio.file.Files.readAllBytes(Files.java:3287)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:90)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:90)
+	at java.util.HashMap.compute(HashMap.java:1324)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1780)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1778)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1589)
+
+2023.05.01 02:21:39 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.05.01 02:21:44 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.05.01 02:23:13 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.05.01 02:25:57 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.05.01 02:25:57 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.05.01 02:27:26 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.05.01 02:27:45 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.05.01 02:27:52 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Exception in thread "pool-3-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Exception in thread "pool-3-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023.05.01 02:27:52 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.05.01 02:27:53 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.05.01 02:31:52 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+Exception in thread "pool-3-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023.05.01 02:32:55 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.05.01 02:38:10 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\OperatingSystems.scala
+2023.05.01 02:38:47 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.05.01 02:38:52 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.05.01 02:44:33 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\lambda.scala
+2023.05.01 02:45:39 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\Lambda.scala
+may 01, 2023 2:45:46 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 231
+2023.05.01 02:46:01 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\Lambda.scala
+2023.05.01 02:46:06 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\Lambda.scala
+2023.05.01 02:46:09 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\Lambda.scala
+2023.05.01 02:46:16 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\Lambda.scala
+2023.05.01 02:46:19 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\lambdas\Lambda.scala
+2023.05.01 03:00:29 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.01 03:00:52 INFO  Shutting down server
+2023.05.01 03:00:52 INFO  shutting down Metals
+2023.05.01 03:00:52 INFO  Exiting server

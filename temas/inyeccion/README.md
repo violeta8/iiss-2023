@@ -1,3 +1,4 @@
+# EXPLICACIÓN DEL EJEMPLO DE INYECCIÓN DE DEPENDENCIAS EN SCALA:
 En el ejemplo de identificación de cuentas bancarias, se definió una clase BankAccount con los atributos necesarios, como el número de cuenta, el tipo de cuenta y el saldo. Luego se creó un trait llamado BankAccountComparator para comparar cuentas bancarias utilizando diferentes criterios de comparación.
 
 ```scala
@@ -49,3 +50,37 @@ class BankAccountIdentifier @Inject() (comparator: BankAccountComparator) {
 Finalmente, se creó una instancia de BankAccountIdentifier utilizando Play, y se utilizaron los diferentes comparadores para identificar cuentas bancarias utilizando diferentes criterios de comparación.
 
 En resumen, la inyección de dependencias permite que los objetos dependan de otros objetos sin tener que conocer la implementación de esos objetos. En Scala, esto se puede lograr utilizando el framework Play y configurando los módulos de Play para que utilicen diferentes objetos dependientes.
+
+## EJECUCIÓN DEL EJEMPLO
+
+Para ejecutar el main, ya que es un proyecto maven necesitamos ejecutar el pom.xml, para ello nos vamos a la carpeta donde se encuentra el pom.xml y ejecutamos el siguiente comando:
+Abre una terminal y navega hasta el directorio raíz de tu proyecto Maven.
+
+Ejecuta el siguiente comando para compilar el proyecto y generar el archivo JAR:
+```bash
+mvn clean package
+```
+
+Este comando compila el código fuente y empaqueta la aplicación en un archivo JAR en la carpeta "target" del proyecto.
+
+Una vez que el archivo JAR ha sido generado, puedes ejecutar la aplicación utilizando el siguiente comando:
+```bash
+java -cp target/nombre-del-archivo-jar.jar com.example.Main
+```
+
+Asegúrate de reemplazar "nombre-del-archivo-jar.jar" con el nombre del archivo JAR generado y "nombre-del-paquete" con el nombre del paquete que contiene tu clase Main.
+
+Este comando ejecuta la clase Main y muestra la salida en la consola.
+
+Si deseas probar la inyección de dependencias de distintas implementaciones de la interfaz BankAccountComparator, simplemente modifica la configuración en el archivo BankAccountModule.scala y ejecuta de nuevo el comando "mvn clean package" seguido del comando "java -cp target/nombre-del-archivo-jar.jar nombre-del-paquete.Main".
+
+Por ejemplo, para inyectar la implementación BankAccountTypeComparator en lugar de la implementación AccountNumberComparator, puedes cambiar la línea en el método configure() del archivo BankAccountModule.scala de:
+```bash
+bind(classOf[BankAccountComparator]).to(classOf[AccountNumberComparator])
+```
+a:
+```bash
+bind(classOf[BankAccountComparator]).to(classOf[BankAccountTypeComparator])
+```
+
+Luego, vuelve a ejecutar el comando "mvn clean package" seguido del comando "java -cp target/nombre-del-archivo-jar.jar nombre-del-paquete.Main" para ver el resultado de la inyección de dependencias con la nueva implementación.
