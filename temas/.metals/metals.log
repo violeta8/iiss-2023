@@ -247,3 +247,161 @@ k// La clase Consola implementa la interfaz Jugable.
 2023.03.16 15:32:21 INFO  Shutting down server
 2023.03.16 15:32:21 INFO  shutting down Metals
 2023.03.16 15:32:21 INFO  Exiting server
+2023.05.08 16:24:53 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas' for client Visual Studio Code 1.78.0.
+may 08, 2023 4:24:53 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+may 08, 2023 4:24:53 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+may 08, 2023 4:24:53 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+may 08, 2023 4:24:54 P. M. org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\.metals\metals (H2 2.1)
+may 08, 2023 4:24:54 P. M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.024s)
+may 08, 2023 4:24:54 P. M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+may 08, 2023 4:24:54 P. M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.08 16:24:54 INFO  time: initialize in 0.7s
+2023.05.08 16:24:56 WARN  Build server is not auto-connectable.
+2023.05.08 16:24:56 WARN  no build tool detected in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.05.08 16:24:56 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccount.scala
+2023.05.08 16:24:56 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.java
+2023.05.08 16:24:59 INFO  no build target found for C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccount.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.08 16:25:01 INFO  time: code lens generation in 5.04s
+2023.05.08 16:25:01 WARN  Running javac-semanticdb failed for file:///C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/inyeccion/Main.java. Output:
+C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.java:1: error: class, interface, enum, or record expected
+object Main extends App {
+^
+C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.java:2: error: as of release 9, '_' is a keyword, and may not be used as an identifier
+    import BankAccountComparator._
+                                 ^
+C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.java:2: error: ';' expected
+    import BankAccountComparator._
+                                  ^
+3 errors
+2023.05.08 16:25:05 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparator.scala
+2023.05.08 16:25:12 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparator.scala
+2023.05.08 16:25:16 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccount.scala
+may 08, 2023 4:25:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 646 out of bounds for char[644]
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 646 out of bounds for char[644]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 646 out of bounds for char[644]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getRawTokenSource(PublicScanner.java:597)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:75)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:125)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:157)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:48)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:43)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$3(MetalsLspService.scala:1795)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.05.08 16:25:29 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.java
+2023.05.08 16:25:30 WARN  Running javac-semanticdb failed for file:///C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/inyeccion/Main.java. Output:
+C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.java:3: error: class, interface, enum, or record expected
+    val accounts = List(
+    ^
+1 error
+may 08, 2023 4:25:33 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 646 out of bounds for char[644]
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 646 out of bounds for char[644]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 646 out of bounds for char[644]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getRawTokenSource(PublicScanner.java:597)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:75)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:125)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:157)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:48)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:43)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$3(MetalsLspService.scala:1795)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.05.08 16:25:34 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.java
+2023.05.08 16:25:35 WARN  Running javac-semanticdb failed for file:///C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/inyeccion/Main.java. Output:
+C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.java:1: error: class, interface, enum, or record expected
+object Main extends App {
+^
+C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.java:2: error: as of release 9, '_' is a keyword, and may not be used as an identifier
+    import BankAccountComparator._
+                                 ^
+C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.java:2: error: ';' expected
+    import BankAccountComparator._
+                                  ^
+3 errors
+2023.05.08 16:26:35 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.scala
+may 08, 2023 4:28:52 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 105
+2023.05.08 16:28:55 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.scala
+2023.05.08 16:28:55 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.scala
+may 08, 2023 4:28:55 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 119
+2023.05.08 16:29:07 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.scala
+2023.05.08 16:29:09 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.scala
+2023.05.08 16:29:14 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.scala
+2023.05.08 16:29:16 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.scala
+2023.05.08 16:29:16 WARN  Using indexes to guess the definition of compareById
+may 08, 2023 4:32:02 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 225
+2023.05.08 16:32:02 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.scala
+2023.05.08 16:32:13 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.scala
+2023.05.08 16:32:13 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.scala
+2023.05.08 16:32:48 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.scala
+2023.05.08 16:32:50 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.scala
+2023.05.08 16:32:51 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.scala
+2023.05.08 16:32:53 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\Main.scala
+2023.05.08 17:03:20 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparator.scala
+2023.05.08 17:03:25 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparator.scala
+2023.05.08 17:03:28 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparator.scala
+2023.05.08 17:03:37 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparator.scala
+2023.05.08 17:03:38 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparator.scala
+2023.05.08 17:07:16 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparatorImpl.scala
+2023.05.08 17:07:22 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparatorImpl.scala
+2023.05.08 17:07:26 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparator.scala
+2023.05.08 17:09:00 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparatorImpl.scala
+2023.05.08 17:09:26 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparator.scala
+2023.05.08 17:10:01 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparator.scala
+2023.05.08 17:10:11 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparator.scala
+2023.05.08 17:10:25 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparatorImpl.scala
+2023.05.08 17:10:25 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparatorImpl.scala
+2023.05.08 17:12:27 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\target\build.sbt.scala
+2023.05.08 17:12:33 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\build.sbt.scala
+2023.05.08 17:12:38 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\build.sbt
+2023.05.08 17:12:42 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\build.sbt
+2023.05.08 17:12:42 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\build.sbt
+may 08, 2023 5:14:12 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 640
+2023.05.08 17:17:27 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparator.scala
+2023.05.08 17:17:30 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparator.scala
+2023.05.08 17:17:31 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparator.scala
+2023.05.08 17:29:34 INFO  Shutting down server
+2023.05.08 17:29:34 INFO  shutting down Metals
+2023.05.08 17:29:34 INFO  Exiting server

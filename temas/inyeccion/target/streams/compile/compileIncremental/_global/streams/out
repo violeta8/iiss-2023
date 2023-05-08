@@ -1,0 +1,61 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 7 products, 3 sources, 1 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/BankAccount.scala, ${BASE}/BankAccountComparator.scala, ${BASE}/BankAccountComparatorImpl.scala, ${BASE}/Main.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/BankAccountComparatorImpl.scala), removed = Set(), changed = Set(${BASE}/BankAccountComparator.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(${BASE}/BankAccountComparatorImpl.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/BankAccountComparator.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(BankAccountComparator)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(BankAccountComparator)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/BankAccountComparatorImpl.scala, ${BASE}/BankAccountComparator.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: BankAccountComparator[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\target\scala-2.12\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.8.0:compile for Scala 2.12.17[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 7bfcd973 for Scala compiler version 2.12.17[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\viole\.sbt\boot\scala-2.12.17\lib\scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\target\scala-2.12\classes;C:\Users\viole\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\google\inject\guice\4.2.2\guice-4.2.2.jar;C:\Users\viole\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\viole\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\viole\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\viole\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\viole\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\viole\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\viole\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\viole\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from BankAccountComparator...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: BankAccountComparator[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding BankAccountComparatorImpl by BankAccountComparator[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(BankAccountComparator, BankAccountComparatorImpl)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following member ref dependencies of BankAccountComparator are invalidated:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BankAccountComparatorImpl[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(BankAccountComparator,ModifiedNames(changes = UsedName(gteq,[Default]), UsedName(on,[Default]), UsedName(gt,[Default]), UsedName(toString,[Default]), UsedName(ne,[Default]), UsedName(synchronized,[Default]), UsedName(max,[Default]), UsedName(compareByInterestRate,[Implicit]), UsedName(BankAccountComparator,[Default]), UsedName(equiv,[Default]), UsedName(mkOrderingOps,[Implicit]), UsedName(getClass,[Default]), UsedName(Ops,[Default]), UsedName(min,[Default]), UsedName(compareByBalance,[Implicit]), UsedName(notify,[Default]), UsedName(compare,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(##,[Default]), UsedName(thenComparingDouble,[Default]), UsedName(==,[Default]), UsedName(thenComparingInt,[Default]), UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(reverse,[Default]), UsedName(compareById,[Implicit]), UsedName(thenComparing,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(lteq,[Default]), UsedName(wait,[Default]), UsedName(lt,[Default]), UsedName(tryCompare,[Default]), UsedName(isInstanceOf,[Default]), UsedName(reversed,[Default]), UsedName(thenComparingLong,[Default]), UsedName(eq,[Default]), UsedName($init$,[Default]))) invalidates 3 classes due to The BankAccountComparator has the following implicit definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(compareByInterestRate,[Implicit]), UsedName(mkOrderingOps,[Implicit]), UsedName(compareByBalance,[Implicit]), UsedName(compareById,[Implicit]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(BankAccountComparator, BankAccountComparatorImpl)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by member reference: Set(BankAccountComparatorImpl, Main)[0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from BankAccountComparatorImpl...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: BankAccountComparatorImpl[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(BankAccountComparatorImpl)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(BankAccountComparatorImpl,ModifiedNames(changes = UsedName(gteq,[Default]), UsedName(on,[Default]), UsedName(gt,[Default]), UsedName(toString,[Default]), UsedName(ne,[Default]), UsedName(synchronized,[Default]), UsedName(BankAccountComparatorImpl;init;,[Default]), UsedName(max,[Default]), UsedName(compareByInterestRate,[Implicit]), UsedName(equiv,[Default]), UsedName(BankAccountComparatorImpl,[Default]), UsedName(mkOrderingOps,[Implicit]), UsedName(getClass,[Default]), UsedName(Ops,[Default]), UsedName(min,[Default]), UsedName(compareByBalance,[Implicit]), UsedName(notify,[Default]), UsedName(compare,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(##,[Default]), UsedName(thenComparingDouble,[Default]), UsedName(==,[Default]), UsedName(thenComparingInt,[Default]), UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(reverse,[Default]), UsedName(compareById,[Implicit]), UsedName(thenComparing,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(lteq,[Default]), UsedName(wait,[Default]), UsedName(lt,[Default]), UsedName(tryCompare,[Default]), UsedName(isInstanceOf,[Default]), UsedName(reversed,[Default]), UsedName(thenComparingLong,[Default]), UsedName(eq,[Default]), UsedName($init$,[Default]))) invalidates 1 classes due to The BankAccountComparatorImpl has the following implicit definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(compareByInterestRate,[Implicit]), UsedName(mkOrderingOps,[Implicit]), UsedName(compareByBalance,[Implicit]), UsedName(compareById,[Implicit]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(BankAccountComparatorImpl)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Main[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set(Main)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated classes: Main[0m
+[0m[[0m[0mdebug[0m] [0m[0mCompilation failed (CompilerInterface)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m

@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\BankAccountComparatorImpl.scala:3:7: class BankAccountComparatorImpl needs to be abstract, since method compare in trait Ordering of type (x: BankAccount, y: BankAccount)Int is not defined[0m
+[0m[[0m[31merror[0m] [0m[0mclass BankAccountComparatorImpl @Inject()() extends BankAccountComparator {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
