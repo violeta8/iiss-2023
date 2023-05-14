@@ -1,6 +1,26 @@
 import scala.io.StdIn
 
 object Main extends App {
+
+  // Pedimos al usuario que introduzca la edad
+  println("Introduce la edad:")
+  val edad = StdIn.readInt()
+
+  // Definimos otra función que toma un número entero y devuelve un Either[String, Int]
+  def validarEdad(edad: Int): Either[String, Int] = {
+    if (edad < 18) {
+      //salir del programa
+      sys.exit()
+    
+    }else Right(edad)
+  }
+
+  // Utilizamos la función validarEdad para validar la edad introducida por el usuario
+  validarEdad(edad) match {
+    case Right(e) => println(s"La edad $e es válida, puede continuar usando el programa")
+    case Left(mensaje) => println(mensaje)
+  }
+
   // Pedimos al usuario que introduzca los números de entrada
   println("Introduce el dividendo:")
   val dividendo = StdIn.readInt()
@@ -20,20 +40,5 @@ object Main extends App {
   resultado match {
     case Some(r) => println(s"El resultado es $r")
     case None => println("No se puede dividir entre cero")
-  }
-
-  // Pedimos al usuario que introduzca la edad
-  println("Introduce la edad:")
-  val edad = StdIn.readInt()
-
-  // Definimos otra función que toma un número entero y devuelve un Either[String, Int]
-  def validarEdad(edad: Int): Either[String, Int] = {
-    if (edad < 18) Left("La persona es menor de edad") else Right(edad)
-  }
-
-  // Utilizamos la función validarEdad para validar la edad introducida por el usuario
-  validarEdad(edad) match {
-    case Right(e) => println(s"La edad $e es válida")
-    case Left(mensaje) => println(mensaje)
   }
 }

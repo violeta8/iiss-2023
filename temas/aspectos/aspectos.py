@@ -4,28 +4,28 @@ from flask import Flask
 
 app = Flask(__name__)
 
+# Definición de los decoradores
 def time_it(func):
-    @wraps(func)
-    def wrapper(*args, **kwargs):
-        start = time.time()
-        result = func(*args, **kwargs)
-        end = time.time()
-        print(f"La funcion {func.__name__} tardo {end - start} segundos en ejecutarse.")
-        return result
-    return wrapper
+    # ... definición del decorador ...
+    
 
 def log_it(func):
-    @wraps(func)
-    def wrapper(*args, **kwargs):
-        print(f"Llamando a la funcion {func.__name__}.")
-        result = func(*args, **kwargs)
-        print(f"La funcion {func.__name__} ha sido llamada.")
-        return result
-    return wrapper
+    # ... definición del decorador ...
 
+def before_execution(func):
+    # ... definición del decorador ...
+
+def after_execution(func):
+    # ... definición del decorador ...
+
+def only_with_parameter(param_name):
+    # ... definición del decorador ...
+
+# Definición de las rutas y funciones decoradas
 @app.route('/')
 @time_it
 @log_it
+@before_execution
 def fun_welcome():
     return '¡Bienvenidx a la primera funcion!'
 
@@ -37,6 +37,10 @@ def other_fun():
 @app.errorhandler(404)
 def page_not_found(error):
     return 'Lo siento, no se pudo encontrar la pagina solicitada.', 404
+
+@only_with_parameter('parametro_especial')
+def function_with_special_parameter(parametro_especial):
+    return parametro_especial * 2
 
 if __name__ == '__main__':
     app.run(port=8080)
