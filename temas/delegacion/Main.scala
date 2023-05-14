@@ -1,8 +1,8 @@
 object Main extends App {
-  implicit val lavadoraAutomaticaAdapter: LavadoraAutomaticaAdapter = new LavadoraAutomaticaAdapter(new LavadoraAutomatica())
-  val lavadora = new Lavadora
+  implicit val TocarAutomaticaAdapter: TocarAutomaticaAdapter = new TocarAutomaticaAdapter(new TocarAutomatica())
+  val instrumento = new Instrumento
 
-  println("Iniciando lavado...")
-  lavadora.lavarRopa()
-  println("Lavado completado.")
+  println("Iniciando instrumento...")
+  instrumento.tocarInstrumento()
+  println("Instrumento ha completado su rutina.")
 }

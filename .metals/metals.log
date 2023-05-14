@@ -21466,3 +21466,251 @@ WARNING: Unmatched cancel notification for request id 1422
 2023.05.14 13:54:07 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
 2023.05.14 13:54:13 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
 2023.05.14 13:54:47 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+may 14, 2023 1:55:01 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.05.14 14:05:13 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+may 14, 2023 2:05:14 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1499
+2023.05.14 14:05:54 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\AsyncSum.scala
+2023.05.14 14:05:57 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.14 14:06:17 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.14 14:06:21 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.14 14:06:22 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+may 14, 2023 2:06:34 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1564
+2023.05.14 14:06:37 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.14 14:06:47 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.05.14 14:06:47 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.14 14:06:49 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.14 14:07:01 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.14 14:09:14 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Lavadora.scala
+2023.05.14 14:09:33 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\LavadoraAutomaticaAdapter.scala
+2023.05.14 14:09:41 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Lavadora.scala
+2023.05.14 14:09:47 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\LavadoraAutomaticaAdapter.scala
+2023.05.14 14:10:01 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:10:19 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.14 14:10:20 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomatica.scala
+2023.05.14 14:10:21 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+may 14, 2023 2:10:25 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Toplevel definition lavadoraAutomaticaAdapter is defined in
+  C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/delegacion/Lavadora.scala
+and also in
+  C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/delegacion/Instrumento.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition lavadoraAutomaticaAdapter is defined in
+  C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/delegacion/Lavadora.scala
+and also in
+  C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/delegacion/Instrumento.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2447)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$5(SymDenotations.scala:2411)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2467)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2023)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2074)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:686)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:811)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:703)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:879)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:669)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:653)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1020)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:925)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.BitmapIndexedSetNode.foreach(HashSet.scala:937)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:944)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:925)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1020)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:149)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:207)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:99)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:62)
+
+2023.05.14 14:10:26 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:10:31 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:10:33 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:10:35 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:10:37 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:10:42 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+may 14, 2023 2:10:43 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1835
+2023.05.14 14:10:45 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:10:48 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:10:49 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:10:51 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:10:59 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:11:07 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomatica.scala
+2023.05.14 14:11:16 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomatica.scala
+2023.05.14 14:11:20 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomatica.scala
+may 14, 2023 2:11:22 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1976
+2023.05.14 14:11:27 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.14 14:11:31 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.14 14:11:36 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+may 14, 2023 2:11:38 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2051
+2023.05.14 14:11:39 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.14 14:11:39 WARN  Using indexes to guess the definition of LavadoraAutomatica
+may 14, 2023 2:11:41 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2065
+2023.05.14 14:11:42 WARN  Using indexes to guess the definition of LavadoraAutomatica
+2023.05.14 14:11:43 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.14 14:11:47 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.14 14:11:50 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.14 14:11:58 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+may 14, 2023 2:11:59 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2142
+2023.05.14 14:12:01 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.14 14:12:04 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.14 14:12:13 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:12:22 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:12:26 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:12:28 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:12:31 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:12:33 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:12:37 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:12:44 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:12:46 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+may 14, 2023 2:12:52 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Toplevel definition TocarAutomaticaAdapter is defined in
+  C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/delegacion/Instrumento.scala
+and also in
+  C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/delegacion/TocarAutomaticaAdapter.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition TocarAutomaticaAdapter is defined in
+  C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/delegacion/Instrumento.scala
+and also in
+  C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/delegacion/TocarAutomaticaAdapter.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2447)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$5(SymDenotations.scala:2411)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2467)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2023)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2074)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:686)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:811)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:703)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:879)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:669)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:653)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1020)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:925)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.BitmapIndexedSetNode.foreach(HashSet.scala:937)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:944)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:925)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1020)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:149)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:207)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:99)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:62)
+
+2023.05.14 14:12:54 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:12:58 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:13:01 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:13:04 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:13:04 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:13:05 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:13:08 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:13:09 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:13:09 WARN  Using indexes to guess the definition of LavadoraAutomatica
+2023.05.14 14:13:11 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:14:03 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:14:06 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:14:12 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:14:47 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:14:50 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:14:51 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:14:53 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:14:54 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:14:55 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:15:08 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:15:14 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomatica.scala
+2023.05.14 14:15:17 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:15:19 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.14 14:15:21 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+may 14, 2023 2:15:23 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2647
+2023.05.14 14:15:25 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+may 14, 2023 2:15:27 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Toplevel definition TocarAutomaticaAdapter is defined in
+  C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/delegacion/Instrumento.scala
+and also in
+  C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/delegacion/TocarAutomaticaAdapter.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition TocarAutomaticaAdapter is defined in
+  C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/delegacion/Instrumento.scala
+and also in
+  C:/Users/viole/Documents/UNIVERSIDAD/IISS/Practicas/iiss-2023/temas/delegacion/TocarAutomaticaAdapter.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2447)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$5(SymDenotations.scala:2411)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2467)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2023)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2074)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:686)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:811)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:703)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:879)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:669)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:653)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1020)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:925)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.BitmapIndexedSetNode.foreach(HashSet.scala:937)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:944)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:925)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1020)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:149)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:207)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:99)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:62)
+
+2023.05.14 14:15:28 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.14 14:16:04 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomatica.scala
+2023.05.14 14:16:07 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomatica.scala
+2023.05.14 14:16:21 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+may 14, 2023 2:16:33 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2720
+may 14, 2023 2:16:34 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2723
+2023.05.14 14:16:38 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.14 14:16:38 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.14 14:16:38 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.14 14:16:40 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+may 14, 2023 2:16:58 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2764
+2023.05.14 14:17:01 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.14 14:17:06 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.14 14:17:07 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.14 14:17:12 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.14 14:21:36 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
