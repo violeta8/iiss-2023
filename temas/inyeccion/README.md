@@ -41,10 +41,9 @@ Para probar este código se necesitan los siguientes requisitos:
 - Un IDE de desarrollo compatible con Scala, como IntelliJ IDEA, Eclipse o Visual Studio Code.
 
 Para ejecutar el código, se deben seguir los siguientes pasos:
-1. Clonar el repositorio que contiene el código.
-2. Abrir el IDE de desarrollo y abrir el proyecto.
-3. Compilar el proyecto para descargar las dependencias. 
-4. Ejecutar el servidor utilizando el comando `sbt run` en la terminal del IDE o en una terminal externa. 
-5. Abrir un navegador y acceder a la dirección `http://localhost:9000/`.
+1. Abrir el IDE de desarrollo y abrir el proyecto.
+2. Compilar el proyecto para descargar las dependencias. 
+3. Ejecutar el servidor utilizando el comando `sbt run` en la terminal del IDE o en una terminal externa. 
+4. Abrir un navegador y acceder a la dirección `http://localhost:9000/`.
 
 Una vez que se acceda a la dirección, se debería ver una página de bienvenida. Para acceder al formulario de estudiantes, se debe hacer clic en el enlace "listStudent". Esto mostrará una lista de estudiantes y un formulario para agregar estudiantes nuevos. Luego de completar el formulario y hacer clic en "Add a student along with their media", se debe mostrar la lista actualizada de estudiantes, incluyendo el nuevo estudiante agregado.

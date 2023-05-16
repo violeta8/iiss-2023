@@ -21769,3 +21769,191 @@ WARNING: Unmatched cancel notification for request id 241
 2023.05.14 21:55:12 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\test\unit\UnitSpec.scala
 may 14, 2023 10:06:28 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.05.15 12:05:47 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023' for client Visual Studio Code 1.78.1.
+may 15, 2023 12:05:47 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+may 15, 2023 12:05:47 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+may 15, 2023 12:05:47 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+may 15, 2023 12:05:52 P. M. org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\.metals\metals (H2 2.1)
+may 15, 2023 12:05:52 P. M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.106s)
+may 15, 2023 12:05:52 P. M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+may 15, 2023 12:05:52 P. M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.15 12:05:52 INFO  time: initialize in 5.54s
+2023.05.15 12:05:57 WARN  Build server is not auto-connectable.
+2023.05.15 12:05:57 WARN  no build tool detected in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.05.15 12:05:57 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\AsyncController.scala
+2023.05.15 12:06:04 INFO  no build target found for C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\AsyncController.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.15 12:06:09 INFO  time: code lens generation in 11s
+2023.05.15 12:06:13 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\AsyncController.scala
+2023.05.15 12:06:27 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\HomeController.scala
+2023.05.15 12:06:30 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\filters\ExampleFilter.scala
+2023.05.15 12:07:31 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\HomeController.scala
+2023.05.15 12:07:38 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\filters\ExampleFilter.scala
+2023.05.15 12:12:03 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\build.sbt
+2023.05.15 12:12:06 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\test\BrowserSpec.scala
+2023.05.15 12:12:11 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\test\FunctionalSpec.scala
+2023.05.15 12:12:11 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\test\UnitSpec.scala
+2023.05.15 12:12:12 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\test\BrowserSpec.scala
+2023.05.15 12:12:18 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\test\FunctionalSpec.scala
+2023.05.15 12:12:19 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\test\UnitSpec.scala
+2023.05.15 12:36:41 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+may 15, 2023 12:36:41 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 114
+may 15, 2023 12:36:42 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 116
+may 15, 2023 12:36:42 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 120
+2023.05.15 12:36:49 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.15 12:37:08 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.15 12:37:10 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomatica.scala
+2023.05.15 12:37:14 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.15 12:37:24 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.15 14:41:44 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Instrumento.scala
+2023.05.15 14:41:53 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomatica.scala
+2023.05.15 14:42:04 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\TocarAutomaticaAdapter.scala
+2023.05.15 14:42:10 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\delegacion\Main.scala
+2023.05.15 14:44:42 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\undefined\Main.scala
+2023.05.15 14:52:59 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\AsyncSum.scala
+2023.05.15 14:53:31 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\Main.scala
+2023.05.15 14:54:22 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\asincrono\AsyncSum.scala
+2023.05.16 10:28:27 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023' for client Visual Studio Code 1.78.1.
+may 16, 2023 10:28:27 A. M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+may 16, 2023 10:28:27 A. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+may 16, 2023 10:28:27 A. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+may 16, 2023 10:28:32 A. M. org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\.metals\metals (H2 2.1)
+may 16, 2023 10:28:32 A. M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.040s)
+may 16, 2023 10:28:32 A. M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+may 16, 2023 10:28:32 A. M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.16 10:28:32 INFO  time: initialize in 5s
+2023.05.16 10:28:35 WARN  Build server is not auto-connectable.
+2023.05.16 10:28:35 WARN  no build tool detected in workspace 'C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.05.16 10:28:35 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\AsyncController.scala
+2023.05.16 10:28:40 INFO  no build target found for C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\AsyncController.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.16 10:28:46 INFO  time: code lens generation in 10s
+may 16, 2023 10:28:58 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2023.05.16 10:29:10 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\HomeController.scala
+2023.05.16 10:29:15 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\AsyncController.scala
+2023.05.16 10:30:51 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\HomeController.scala
+2023.05.16 10:30:58 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\filters\ExampleFilter.scala
+2023.05.16 10:35:05 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\AsyncController.scala
+2023.05.16 10:35:09 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\HomeController.scala
+2023.05.16 10:35:19 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\HomeController.scala
+2023.05.16 10:35:47 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\HomeController.scala
+2023.05.16 10:35:49 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\HomeController.scala
+2023.05.16 10:35:53 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\HomeController.scala
+2023.05.16 10:35:55 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\HomeController.scala
+2023.05.16 10:35:57 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\HomeController.scala
+2023.05.16 10:35:59 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\HomeController.scala
+2023.05.16 10:36:54 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\observables\play-scala-starter\app\controllers\AsyncController.scala
+2023.05.16 10:56:13 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\MyClass.scala
+2023.05.16 10:56:19 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\MyClass.scala
+2023.05.16 10:56:28 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\Main.scala
+2023.05.16 10:56:34 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\Main.scala
+2023.05.16 10:56:52 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\LoggingAspect.scala
+2023.05.16 10:56:59 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\LoggingAspect.scala
+2023.05.16 14:25:13 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\Main.scala
+2023.05.16 14:27:44 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\LoginAspect.scala
+2023.05.16 14:27:53 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\LoggingAspect.scala
+2023.05.16 14:27:56 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\LoggingAspect.scala
+may 16, 2023 2:28:06 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 303
+2023.05.16 14:28:21 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\LoggingAspect.scala
+2023.05.16 14:28:23 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\LoggingAspect.scala
+2023.05.16 14:28:39 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\Main.scala
+2023.05.16 14:29:32 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\LoggingAspect.scala
+2023.05.16 14:31:07 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\aspectos\LoggingAspect.scala
+2023.05.16 15:30:33 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 15:30:48 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:30:53 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:31:06 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 15:31:07 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\models\Student.scala
+2023.05.16 15:31:08 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 15:31:12 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 15:31:43 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\models\Student.scala
+2023.05.16 15:31:54 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentForm.scala
+2023.05.16 15:32:14 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 15:34:13 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:34:40 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:34:59 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:35:07 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:35:09 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:35:17 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:35:18 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:35:38 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:35:38 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:35:38 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:35:39 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:35:40 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:35:40 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:35:41 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:35:45 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:35:47 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:35:48 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:36:52 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:37:49 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:38:33 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:38:46 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:38:47 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:39:33 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+may 16, 2023 3:39:53 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 770
+2023.05.16 15:39:54 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:40:04 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:40:15 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:40:19 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:41:26 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:42:20 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+may 16, 2023 3:42:20 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 846
+2023.05.16 15:42:23 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:42:25 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:42:41 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:42:52 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:42:59 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:43:37 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:43:48 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 15:44:24 WARN  Using indexes to guess the definition of AlternativeMessagesControllerComponents
+2023.05.16 15:47:57 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 15:48:07 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 15:48:13 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 15:48:16 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 15:48:19 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 15:48:42 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 15:49:17 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\build.sbt
+2023.05.16 15:49:33 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\build.sbt
+2023.05.16 15:49:36 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\build.sbt
+2023.05.16 15:49:39 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\build.sbt
+2023.05.16 15:50:59 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\build.sbt
+2023.05.16 15:52:12 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\build.sbt
+2023.05.16 15:52:15 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\build.sbt
+2023.05.16 15:52:43 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\build.sbt
+2023.05.16 15:52:48 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\build.sbt
+2023.05.16 15:53:24 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 15:56:33 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\build.sbt
+2023.05.16 15:56:37 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\build.sbt
+2023.05.16 15:57:33 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\build.sbt
+may 16, 2023 4:05:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1355
+2023.05.16 16:05:21 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 16:05:40 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\AlternativeMessagesControllerComponents.scala
+2023.05.16 16:05:52 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 16:05:54 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 16:05:55 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 16:05:59 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 16:06:04 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 16:06:09 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala
+2023.05.16 16:06:13 WARN  no build target for: C:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala

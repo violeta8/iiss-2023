@@ -1,96 +1,92 @@
-El código proporcionado utiliza el framework Akka y el trait Observable de las extensiones RxScala para procesar streams de eventos asíncronos en Scala. El objetivo del código es crear un `Source` de Akka que emite un evento "tick" cada segundo, y convertirlo en un `Observable` de RxScala para suscribirse a los eventos y imprimirlos por pantalla.
+### Explicación del código
 
-Primero, se importan las librerías necesarias:
+El código proporcionado consiste en tres archivos de código fuente en el lenguaje Scala. Aquí hay una explicación de cada uno de ellos:
+#### AsyncController.scala
+
+Este archivo define un controlador llamado `AsyncController` que muestra cómo escribir código asincrónico en un controlador utilizando el framework Akka. El controlador tiene una acción llamada `message` que devuelve un mensaje después de un retardo de 1 segundo.
+
+La importancia del framework Akka en este código es que se utiliza para programar tareas asincrónicas. Akka proporciona un sistema de actores que permite escribir código concurrente y distribuido de manera sencilla. En este caso, se utiliza el `ActorSystem` y su `Scheduler` para programar una tarea que se ejecutará después de un retardo.
 
 ```scala
 
+package controllers
+
+import javax.inject._
 import akka.actor.ActorSystem
-import akka.stream.ActorMaterializer
-import akka.stream.scaladsl.Source
-import rx.lang.scala.Observable
+import play.api.mvc._
 import scala.concurrent.duration._
-```
+import scala.concurrent.{ExecutionContext, Future, Promise}
 
+@Singleton
+class AsyncController @Inject()(cc: ControllerComponents, actorSystem: ActorSystem)(implicit exec: ExecutionContext) extends AbstractController(cc) {
 
+  def message = Action.async {
+    getFutureMessage(1.second).map { msg => Ok(msg) }
+  }
 
-Luego, se crea un objeto `AkkaRxScalaExample` que contiene el `main`:
-
-```scala
-
-object AkkaRxScalaExample {
-  def main(args: Array[String]): Unit = {
-    // ...
+  private def getFutureMessage(delayTime: FiniteDuration): Future[String] = {
+    val promise: Promise[String] = Promise[String]()
+    actorSystem.scheduler.scheduleOnce(delayTime) {
+      promise.success("Hi!")
+    }(actorSystem.dispatcher)
+    promise.future
   }
 }
 ```
 
 
+#### HomeController.scala
 
-Dentro del `main`, se crea un sistema de actores de Akka y un materializador de actores:
+Este archivo define un controlador llamado `HomeController` que tiene una acción llamada `index`. La acción devuelve una respuesta con el mensaje "You have entered successfully!".
 
-```scala
-
-implicit val system = ActorSystem("my-system")
-implicit val materializer = ActorMaterializer()
-import system.dispatcher
-```
-
-
-
-Se define un `Source` de Akka que emite un evento "tick" cada segundo:
+En este archivo no se utiliza el framework Akka. Simplemente se trata de un controlador básico que muestra una página de inicio.
 
 ```scala
 
-val source = Source.tick(0.seconds, 1.second, "tick")
-```
+package controllers
 
+import javax.inject._
+import play.api.mvc._
+import scala.concurrent.ExecutionContext
 
+@Singleton
+class HomeController @Inject()(cc: ControllerComponents) (implicit assetsFinder: AssetsFinder)
+  extends AbstractController(cc) {
 
-Luego, se convierte el `Source` en un `Observable` de RxScala mediante el método `Observable.create`:
-
-```scala
-
-val observable: Observable[String] = Observable.create { observer =>
-  source.runForeach(observer.onNext)
-  observer.onCompleted()
+  def index = Action {
+    Ok(views.html.index("You have entered successfully!"))
+  }
 }
 ```
 
 
+#### ExampleFilter.scala
 
-El método `create` toma como argumento una función que recibe un `Observer`, que es un objeto que puede recibir y manejar eventos emitidos por el `Observable`. Dentro de la función, se ejecuta el `Source` de Akka mediante el método `runForeach`, que emite cada evento a través del `Observer`. Finalmente, se llama al método `onCompleted` del `Observer` para indicar que no habrá más eventos.
+Este archivo define un filtro llamado `ExampleFilter` que se utiliza para ejecutar código de manera asincrónica. El filtro se aplica a la acción siguiente y agrega el encabezado "X-ExampleFilter" con el valor "foo" a la respuesta.
 
-Por último, se suscribe el `Observable` a los eventos y se los imprime por pantalla mediante el método `subscribe`:
+En este archivo, la importancia del framework Akka es que proporciona el `ExecutionContext` necesario para ejecutar código asincrónico.
 
 ```scala
 
-observable.subscribe { tick =>
-  println(s"Received tick: $tick")
+package filters
+
+import javax.inject._
+import play.api.mvc._
+import scala.concurrent.ExecutionContext
+
+@Singleton
+class ExampleFilter @Inject()(implicit ec: ExecutionContext) extends EssentialFilter {
+  override def apply(next: EssentialAction) = EssentialAction { request =>
+    next(request).map { result =>
+      result.withHeaders("X-ExampleFilter" -> "foo")
+    }
+  }
 }
 ```
 
 
-
-El método `subscribe` toma como argumento una función que recibe cada evento emitido por el `Observable`. En este caso, simplemente se imprime el evento "tick".
-
-Finalmente, se detiene el sistema de actores de Akka después de 5 segundos:
-
-```scala
-
-Thread.sleep(5000)
-system.terminate()
-```
-
-
-
-Para compilar y ejecutar el código, se puede utilizar el comando `scalac` para compilar los archivos `.scala` y `scala` para ejecutar el archivo compilado. Por ejemplo, si el archivo con el `main` se llama `Main.scala`, se puede compilar y ejecutar el código con los siguientes comandos:
-
-```css
-
-scalac Main.scala
-scala Main
-```
-
-
-
-Esto imprimirá los ticks cada segundo hasta que se detenga el sistema de actores de Akka después de 5 segundos.
+## Ejecución del código
+1. Abrir el IDE de desarrollo y abrir el proyecto.
+2. Compilar el proyecto para descargar las dependencias. 
+3. Ejecutar el servidor utilizando el comando `sbt run` en la terminal del IDE o en una terminal externa. 
+4. Abrir un navegador y acceder a la dirección `http://localhost:9000/`.

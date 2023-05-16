@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\play-samples\play-scala-starter-example\conf\routes:8:1: type CountController is not a member of package controllers[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /count                      controllers.CountController.count[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\play-samples\play-scala-starter-example\conf\routes:8:1: type CountController is not a member of package controllers[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /count                      controllers.CountController.count[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

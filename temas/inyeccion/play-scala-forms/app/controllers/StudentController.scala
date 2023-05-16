@@ -7,9 +7,10 @@ import play.api.data._
 import play.api.i18n._
 import play.api.mvc._
 
+
 import scala.collection._
 
-class StudentController @Inject()(cc: MessagesControllerComponents) extends MessagesAbstractController(cc) {
+class StudentController @Inject()(cc: AlternativeMessagesControllerComponents) extends MessagesAbstractController(cc) {
   import StudentForm._
 
   private val students = mutable.ArrayBuffer(
@@ -21,8 +22,11 @@ class StudentController @Inject()(cc: MessagesControllerComponents) extends Mess
   private val postUrl = routes.StudentController.createStudent
 
   def index = Action {
-    Ok(views.html.index())
-  }
+  val result = cc.customMethod() // Verificar que se esté utilizando la implementación alternativa
+  println(result)
+  Ok(views.html.index())
+}
+
 
   def listStudent = Action { implicit request: MessagesRequest[AnyContent] =>
     // Pass an unpopulated form to the template
