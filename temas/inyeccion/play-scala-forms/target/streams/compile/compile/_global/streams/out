@@ -1,28 +1,9 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala:13:39: not found: type AlternativeMessagesControllerComponents[0m
-[0m[[0m[31merror[0m] [0m[0mclass StudentController @Inject()(cc: AlternativeMessagesControllerComponents)  {[0m
-[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala:24:15: not found: value Action[0m
-[0m[[0m[31merror[0m] [0m[0m  def index = Action {[0m
-[0m[[0m[31merror[0m] [0m[0m              ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala:27:3: not found: value Ok[0m
-[0m[[0m[31merror[0m] [0m[0m  Ok(views.html.index())[0m
-[0m[[0m[31merror[0m] [0m[0m  ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala:31:21: not found: value Action[0m
-[0m[[0m[31merror[0m] [0m[0m  def listStudent = Action { implicit request: MessagesRequest[AnyContent] =>[0m
-[0m[[0m[31merror[0m] [0m[0m                    ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala:33:5: not found: value Ok[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala:35:30: could not find implicit value for parameter request: play.api.mvc.MessagesRequestHeader (An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers)[0m
 [0m[[0m[31merror[0m] [0m[0m    Ok(views.html.listStudent(students.toSeq, form, postUrl))[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala:37:23: not found: value Action[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala:39:78: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : play.api.mvc.MessagesRequest[play.api.mvc.AnyContent] => play.api.mvc.Result[0m
+[0m[[0m[31merror[0m] [0m[0m required: play.api.mvc.Request[play.api.mvc.AnyContent] => play.api.mvc.Result[0m
 [0m[[0m[31merror[0m] [0m[0m  def createStudent = Action { implicit request: MessagesRequest[AnyContent] =>[0m
-[0m[[0m[31merror[0m] [0m[0m                      ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala:39:7: not found: value BadRequest[0m
-[0m[[0m[31merror[0m] [0m[0m      BadRequest(views.html.listStudent(students.toSeq, formWithErrors, postUrl))[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala:46:7: not found: value Redirect[0m
-[0m[[0m[31merror[0m] [0m[0m      Redirect(routes.StudentController.listStudent).flashing("info" -> "Student added succesfully!")[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\viole\Documents\UNIVERSIDAD\IISS\Practicas\iiss-2023\temas\inyeccion\play-scala-forms\app\controllers\StudentController.scala:49:52: could not find implicit value for parameter formBinding: play.api.data.FormBinding[0m
-[0m[[0m[31merror[0m] [0m[0m    val formValidationResult = form.bindFromRequest()[0m
-[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
-[0m[[0m[31merror[0m] [0m[0m9 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

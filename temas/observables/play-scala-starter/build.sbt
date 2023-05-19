@@ -9,7 +9,10 @@ lazy val root = (project in file("."))
       "com.h2database" % "h2" % "1.4.200",
       "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test,
       "com.google.inject" % "guice" % "5.1.0",
-      "com.google.inject.extensions" % "guice-assistedinject" % "5.1.0"
+      "com.google.inject.extensions" % "guice-assistedinject" % "5.1.0",
+      "com.typesafe.akka" %% "akka-actor" % "2.6.16",
+      "com.typesafe.akka" %% "akka-stream" % "2.6.16",
+      "com.typesafe.akka" %% "akka-http" % "10.2.6"
     ),
     scalacOptions ++= Seq(
       "-feature",

@@ -1,0 +1,4 @@
+Uri: copilot:GitHub%20Copilot?%5B%22file%3A%2F%2F%2Fc%3A%2FUsers%2Fviole%2FDocuments%2FUNIVERSIDAD%2FIISS%2FPracticas%2Fiiss-2023%2Ftemas%2Finyeccion%2Fplay-scala-forms%2Fapp%2Fcontrollers%2FStudentController.scala%22%2C%7B%22prependToCompletion%22%3A%22%22%2C%22appendToCompletion%22%3A%22%22%2C%22indentation%22%3Anull%2C%22completionType%22%3A2%2C%22insertPosition%22%3A%7B%22line%22%3A10%2C%22character%22%3A0%7D%7D%2C%22%22%5D#0
+
+Error message: Provider "copilot" not installed
+Error: java.nio.file.FileSystemNotFoundException: Provider "copilot" not installed
